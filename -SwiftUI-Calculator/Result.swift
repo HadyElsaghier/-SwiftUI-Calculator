@@ -15,8 +15,6 @@ struct Result: View {
             .fontWeight(.light)
             .padding()
             .foregroundColor(.white)
-            
-            
     }
 }
 
