@@ -12,7 +12,7 @@
 		00D4F9D728C10F8E00671316 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00D4F9D628C10F8E00671316 /* Assets.xcassets */; };
 		00D4F9DA28C10F8E00671316 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00D4F9D928C10F8E00671316 /* Preview Assets.xcassets */; };
 		00D4F9E128C1145100671316 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D4F9E028C1145100671316 /* Result.swift */; };
-		00D4F9E328C11AE300671316 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D4F9E228C11AE300671316 /* Button.swift */; };
+		00D4F9E328C11AE300671316 /* ButtonText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D4F9E228C11AE300671316 /* ButtonText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +22,7 @@
 		00D4F9D628C10F8E00671316 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00D4F9D928C10F8E00671316 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		00D4F9E028C1145100671316 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
-		00D4F9E228C11AE300671316 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		00D4F9E228C11AE300671316 /* ButtonText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 				00D4F9D228C10F8900671316 /* _SwiftUI_CalculatorApp.swift */,
 				00D4F9D428C10F8900671316 /* ContentView.swift */,
 				00D4F9E028C1145100671316 /* Result.swift */,
-				00D4F9E228C11AE300671316 /* Button.swift */,
+				00D4F9E228C11AE300671316 /* ButtonText.swift */,
 				00D4F9D628C10F8E00671316 /* Assets.xcassets */,
 				00D4F9D828C10F8E00671316 /* Preview Content */,
 			);
@@ -146,7 +146,7 @@
 				00D4F9E128C1145100671316 /* Result.swift in Sources */,
 				00D4F9D528C10F8900671316 /* ContentView.swift in Sources */,
 				00D4F9D328C10F8900671316 /* _SwiftUI_CalculatorApp.swift in Sources */,
-				00D4F9E328C11AE300671316 /* Button.swift in Sources */,
+				00D4F9E328C11AE300671316 /* ButtonText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

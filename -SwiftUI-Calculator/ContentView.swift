@@ -14,32 +14,33 @@ struct ContentView: View {
             VStack{
                 Result()
                 HStack{
-                    Button(button: "1")
-                    Button(button: "2")
-                    Button(button: "3")
-                    Button(button: "+", color: .orange)
+                    ButtonText(button: "1")
+                    ButtonText(button: "2")
+                    ButtonText(button: "3")
+                    ButtonText(button: "+", color: .orange)
                 }
                 HStack{
-                    Button(button: "4")
-                    Button(button: "5")
-                    Button(button: "6")
-                    Button(button: "-", color: .orange)
+                    ButtonText(button: "4")
+                    ButtonText(button: "5")
+                    ButtonText(button: "6")
+                    ButtonText(button: "-", color: .orange)
                 }
                 HStack{
-                    Button(button: "7")
-                    Button(button: "8")
-                    Button(button: "9")
-                    Button(button: "X", color: .orange)
+                    ButtonText(button: "7")
+                    ButtonText(button: "8")
+                    ButtonText(button: "9")
+                    ButtonText(button: "X", color: .orange)
                 }
                 HStack{
-                    Button(button: "0", width: 145)
-                    Button(button: "C", color: .gray)
-                    Button(button: "=", color: .orange)
+                    ButtonText(button: "0", width: 145)
+                    ButtonText(button: "C", color: .gray)
+                    ButtonText(button: "=", color: .orange)
                 }
             }
         }
         .ignoresSafeArea()
     }
+  
 }
 
 struct ContentView_Previews: PreviewProvider {
